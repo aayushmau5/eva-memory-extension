@@ -9,7 +9,7 @@ config :eva_memory, :dir, Path.expand("~/.eva-memory")
 config :eva_memory, :distiller,
   base_url: "https://opencode.ai/zen/go/v1",
   api_key: {:system, "OPENCODE_API_KEY"},
-  model: "deepseek-v4-pro",
+  model: "deepseek-v4-flash",
   timeout_ms: 120_000
 
 # Retrieval backend:
